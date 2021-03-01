@@ -18,7 +18,7 @@
 
 <div class="step">
     <i class="bi bi-layers-half left-50"></i>
-    <h4><?=$app->getAppName();?> <span class="badge bg-secondary"><?=$app->getAppVersion();?></span></h4>
+    <h4><?=$app->getAppName();?> <span class="badge bg-secondary">v<?=$app->getAppVersion();?></span></h4>
     <p><?=$app->getAppDescription();?></p>
     <i class="bi bi-layers-half"></i>
 </div>

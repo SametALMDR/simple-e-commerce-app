@@ -4,21 +4,21 @@
             <a href="index.php">
                 <div class="step active">
                     <i class="bi bi-grid-3x3-gap"></i>
-                    <h4>View Products</h4>
+                    <h4>Products</h4>
                 </div>
             </a>
         </div>
         <div class="col-md-4">
             <div class="step">
                 <i class="bi bi-x-diamond"></i>
-                <h4>View Details of a Product</h4>
+                <h4>Details of a Product</h4>
             </div>
         </div>
         <div class="col-md-4">
             <a href="viewbasket.php">
                 <div class="step">
                     <i class="bi bi-cart3"></i>
-                    <h4>View Basket <span class="badge bg-secondary basket-count"><?=$BasketCount;?></span></h4>
+                    <h4>Basket <span class="badge bg-secondary basket-count"><?=$BasketCount;?></span></h4>
                 </div>
             </a>
         </div>
@@ -39,7 +39,7 @@
     </div>
     <div class="row mt-4 mb-5">
         <?php foreach($products as $product){ ?>
-        <div class="col-md-3 mb-4">
+        <div class="col-lg-3 col-md-4 mb-4">
             <div class="product">
                 <h4 class="product-name pt-2">
                     <?=$product->getName($product->getProductId());?></h4>
